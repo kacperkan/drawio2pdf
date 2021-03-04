@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: drawio2pdf
+Version: 0.0.0
+Summary: Scrpit to convert your beautiful draw.io drawings into pdfs.
+Home-page: https://github.com/kacperkan/drawio2pdf
+Author: Kacper Kania
+Author-email: kacp.kania@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: automation graphics inkscape drawio pdf
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.2
+Description-Content-Type: text/markdown

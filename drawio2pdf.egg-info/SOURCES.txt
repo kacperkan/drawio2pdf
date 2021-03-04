@@ -1,0 +1,10 @@
+README.md
+setup.py
+drawio2pdf/__init__.py
+drawio2pdf/drawio2inkscape.py
+drawio2pdf/pdflatex2pdf.py
+drawio2pdf.egg-info/PKG-INFO
+drawio2pdf.egg-info/SOURCES.txt
+drawio2pdf.egg-info/dependency_links.txt
+drawio2pdf.egg-info/not-zip-safe
+drawio2pdf.egg-info/top_level.txt
