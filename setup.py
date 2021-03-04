@@ -21,8 +21,8 @@ setup(
     author_email="kacp.kania@gmail.com",
     url="https://github.com/kacperkan/drawio2pdf",
     license="MIT",
-    packages=["."],
-    package_dir={"": "drawio2pdf"},
+    packages=["drawio2pdf"],
+    package_dir={"": "."},
     python_requires=">=3.6.2",
     zip_safe=False,
     classifiers=[
@@ -45,4 +45,5 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Utilities",
     ],
+    entry_points={"console_scripts": ["drawio2pdf=drawio2pdf:main"]},
 )

@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+# coding=utf8
+
 """The script converts product of the Inkscape latex conversion to a single pdf
 It reads XML file from the draw.io, converts it to the Inkscape specific format
 puts it into `standalone` environment of the latex, and then compiles to a
