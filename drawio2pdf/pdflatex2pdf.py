@@ -25,6 +25,7 @@ LATEX_TEMPLATE = """
 \\usepackage{{amsmath}}
 \\usepackage{{graphicx}}
 \\usepackage{{xcolor}}
+\\usepackage{{bm}}
 \\begin{{document}}
 \\input{{{filename}.pdf_tex}}
 \\end{{document}}
