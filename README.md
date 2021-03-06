@@ -47,7 +47,7 @@ The script will a PDF in the same folder and the same file name.
 
 The result:
 
-![result](example/awesome-diagram.pdf)
+![result](example/awesome-diagram.png)
 
 ## FAQ
 **Q: I get `AssertionError: Incorrect PDF latex generation` while running you script!**
