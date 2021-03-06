@@ -46,6 +46,7 @@ pip install git+https://github.com/kacperkan/drawio2pdf/
 The script will a PDF in the same folder and the same file name.
 
 The result:
+
 ![result](example/awesome-diagram.pdf)
 
 ## FAQ
