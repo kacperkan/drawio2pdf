@@ -28,6 +28,11 @@ Note: Remember about disabling Math Typesetting before exporting to SVG.
 
 def parse(in_path: str, out_path: str):
     with open(in_path) as f:
+        text = f.read()
+    text = text.replace("<br />", "")
+    with open(in_path, "w") as f:
+        f.write(text)
+    with open(in_path) as f:
         doc = ElementTree.parse(f)
     root = doc.getroot()
     for parent_switch in root.findall(f".//{NAMESPACE}foreignObject/.."):
