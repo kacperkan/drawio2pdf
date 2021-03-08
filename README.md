@@ -49,6 +49,15 @@ The result:
 
 ![result](example/awesome-diagram.jpg)
 
+## Docker
+There is a pre-built Docker image for this script, if you want to omit installing
+external packages (inkscape, pdflatex) in your system. Simply run the following
+command in the directory containing your SVG file:
+```bash
+docker run --rm -v $PWD:/app drawio2pdf:latest <filename>.svg
+```
+
+
 ## FAQ
 **Q: I get `AssertionError: Incorrect PDF latex generation` while running you script!**
 
